@@ -1,5 +1,5 @@
 #!/bin/sh
-container='webex'
+container='trusty32'
 
 if ! lxc-wait -n "$container" -s RUNNING -t 0; then
 	lxc-start -d -n "$container"
